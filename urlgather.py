@@ -1,17 +1,7 @@
-#author : Goodzilam
 #tested on Python 3.7.3 and windows 10
-#                       For educational purposes
-#how to use :
-#               *******************************************
-#               *******************************************
-#               ***** Run as Run module in your idler *****
-#               *******************************************
-#               *******************************************
-
-#open cmd > type : pip install selenium
-#go to "http://chromedriver.chromium.org/downloads" and download the ChromeDriver which matches with your ***version***
-#***for finding your chrome version you have to check it at "chrome://settings/help" in your chrome browser***
-#then replace the downloaded ChromeDriver path to the marked line in the code
+#Open "http://chromedriver.chromium.org/downloads" and download the ChromeDriver which matches with your chrome version 
+#then replace the downloaded ChromeDriver path.
+#for finding your chrome version open the "chrome://settings/help" in your chrome browser
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
